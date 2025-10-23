@@ -21,6 +21,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  /*Activate the flexile box layout module*/
+  flex-direction: row;
+  /*To make the list move from column to row*/
 }
 
 a {
