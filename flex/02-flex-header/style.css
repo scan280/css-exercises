@@ -5,6 +5,9 @@
   /*The above is to activate the flexible Box Layout Module*/
   flex-direction: row;
   /*To align our items in a row format*/
+  justify-content: space-between;
+  /*To make the items distribute themselves on the primary
+  axis*/
 }
 
 .logo {
@@ -26,4 +29,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+
 }
