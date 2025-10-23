@@ -1,6 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  /*The above is to activate the flexible Box Layout Module*/
+  flex-direction: row;
+  /*To align our items in a row format*/
 }
 
 .logo {
