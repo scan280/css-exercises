@@ -8,6 +8,8 @@
   justify-content: space-between;
   /*To make the items distribute themselves on the primary
   axis*/
+  align-items: center;
+  /*to place the unordered lists at the center*/
 }
 
 .logo {
@@ -24,7 +26,9 @@ ul {
   display: flex;
   /*Activate the flexile box layout module*/
   flex-direction: row;
-  /*To make the list move from column to row*/
+  /*To make convert the Unordered lists from column to row*/
+  gap: 8px;
+
 }
 
 a {
