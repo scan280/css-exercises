@@ -15,7 +15,9 @@ body {
   display: flex;
   /*To enable the flexible box layout module so that
   our content is easy to manipulate*/
-
+  flex-direction: row;
+  /*To make the header content appear in row format*/
+  justify-content: space-between;
 }
 
 
