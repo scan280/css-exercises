@@ -15,10 +15,23 @@ body {
   display: flex;
   /*To enable the flexible box layout module so that
   our content is easy to manipulate*/
-  flex-direction: row;
   /*To make the header content appear in row format*/
   justify-content: space-between;
+  
+
 }
+
+.left-content{
+display: flex;
+align-items: center;
+}
+/*to group the content on the left together*/
+
+.right-content {
+display: flex;
+align-items: center;
+}
+/*to group the right content together*/
 
 
 .profile-image {
@@ -34,6 +47,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 16px;
 }
 
 button {
@@ -42,6 +56,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 16px;
 }
 
 a {
@@ -52,4 +67,14 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 20px; /* spacing between links */
+  margin: 0;
+  padding: 0;
+
 }
+
+/*We remove default margin and padding for ul since
+by default it is a block element therefore
+without doing this we are left with the list
+stacking downwards*/
