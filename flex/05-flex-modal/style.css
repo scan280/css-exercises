@@ -35,6 +35,12 @@ body {
   justify-content: center;
 }
 
+.header{
+ font-weight: bold;
+ font-size: 24px;
+
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
