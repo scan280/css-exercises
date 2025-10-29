@@ -1,11 +1,36 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  
 }
 
 img {
   width: 100px;
   height: 100px;
+  
 }
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  margin: 72px;
+
+  /*to change the elements orientation from column to row*/
+
+}
+
+*/
+
+.small-container{
+  display: flex;
+  flex-direction: column;
+  /*to be able to stack the flex items
+  vertically*/
+}
+
+ 
 
 .title {
   font-size: 36px;
